@@ -78,6 +78,7 @@ ul>li:nth-child(1) {
     padding-right: 60px;
     width: 130px;
     height: 21px;
+    border-right: 1px solid red;
 
     font-family: DelaGothicOne;
     font-style: normal;
@@ -232,7 +233,7 @@ ul>li:nth-child(8) {
 
 .dropdown {
 
-
+    color: #000000;
     overflow: hidden;
     width: 54px;
     display: inline-block;
