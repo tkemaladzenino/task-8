@@ -289,7 +289,7 @@ ul>li:nth-child(7) {
     border-radius: 12px;
 }
 
-
+/*-------------------------*/
 
 .group1 {
 
@@ -545,6 +545,7 @@ ul>li:nth-child(7) {
 
 }
 
+/* --------*/
 
 .group2 {
     width: 1180px;
@@ -767,7 +768,7 @@ ul>li:nth-child(7) {
 
 }
 
-
+/*----------*/
 
 .group4 {
     width: 1180px;
@@ -880,6 +881,9 @@ ul>li:nth-child(7) {
 
 }
 
+
+/* ------------------- */
+
 .footer {
     width: 1180px;
     height: 160px;
@@ -893,8 +897,11 @@ ul>li:nth-child(7) {
 
 }
 
+/* ---------------*/
+
 .footer1 {
     height: 74px;
+
 }
 
 a {
@@ -904,7 +911,8 @@ a {
 
 table {
     width: 1180px;
-    padding-top: 40px;
+    padding-top: 30px;
+
     height: 54px;
 
 }
@@ -916,10 +924,7 @@ thead {
 }
 
 tr {
-
-    width: 44px;
-    height: 14px;
-
+    padding-bottom: 20px;
 
     font-family: Montserrat;
     font-style: normal;
@@ -933,8 +938,8 @@ tr {
     order: 0;
     flex-grow: 0;
     text-decoration: none;
-
 }
+
 
 a {
     text-decoration: none;
@@ -942,8 +947,8 @@ a {
 }
 
 tr>th:nth-child(1) {
-    padding-left: opx;
-    align-items: left;
+    padding-left: 0px;
+
     width: 44px;
     padding-right: 30px;
 
@@ -953,11 +958,13 @@ tr>th:nth-child(1) {
 
 tr>th:nth-child(2) {
     width: 47px;
+    padding-right: 30px;
 
 }
 
 tr>th:nth-child(3) {
     width: 66px;
+    padding-right: 30px;
 
 }
 
@@ -969,6 +976,7 @@ tr>th:nth-child(4) {
 tr>th:nth-child(5) {
     width: 73px;
     padding-right: 569px;
+    height: 14px;
 }
 
 tr>th:nth-child(6) {
@@ -987,6 +995,11 @@ tr>th:nth-child(8) {
 
 
 
+
+
+
+/*--------*/
+
 .footer2 {
     height: 86px;
     width: 1180px;
@@ -994,31 +1007,62 @@ tr>th:nth-child(8) {
     border: 1.20466px solid #E0E0E0;
 }
 
+.table-1 {
+    width: 1180px;
+    height: 86px;
+}
+
+.tr-1 {
+    display: 1nline;
+    width: 1180px;
+
+}
+
+.fig1 {
+    width: 24.81px;
+    height: 19.87px;
+    padding-left: 0px;
+}
+
+.fig2 {
+    width: 27.9px;
+    height: 18.73px;
+    margin-left: 33.65px;
+}
+
+.fig3 {
+    width: 25.1px;
+    height: 17.57px;
+    margin-left: 33.5px;
+    margin-right: 683px;
+
+}
+
+.last-d {
+    width: 249px;
+    height: 12px;
+}
+
+
 
 
 
 .table-1>th:nth-child(1) {
     width: 24.81px;
-    align-items: left;
-
 
 }
 
 .teble-1>th:nth-child(2) {
     width: 27.9px;
 
-
 }
 
 .table-1>th:nth-child(3) {
     width: 25.1px;
     height: 17.57px;
-    padding-left: 783.45px;
 
 }
 
 .table-1>th:nth-child(4) {
     width: 249px;
-
-
 }
