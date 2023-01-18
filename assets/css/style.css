@@ -906,6 +906,7 @@ table {
     width: 1180px;
     padding-top: 40px;
     height: 54px;
+
 }
 
 
@@ -918,6 +919,7 @@ tr {
 
     width: 44px;
     height: 14px;
+
 
     font-family: Montserrat;
     font-style: normal;
@@ -984,12 +986,12 @@ tr>th:nth-child(8) {
 }
 
 
-.hor {}
 
 .footer2 {
     height: 86px;
     width: 1180px;
     margin-top: 0px;
+    border: 1.20466px solid #E0E0E0;
 }
 
 
@@ -1011,11 +1013,12 @@ tr>th:nth-child(8) {
 .table-1>th:nth-child(3) {
     width: 25.1px;
     height: 17.57px;
+    padding-left: 783.45px;
 
 }
 
 .table-1>th:nth-child(4) {
     width: 249px;
-    padding-right: 0px;
+
 
 }
