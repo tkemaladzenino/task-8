@@ -8,7 +8,9 @@
     src: url(../../fonts/DelaGothicOne-Regular.ttf)
 }
 
-* {
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 
@@ -17,7 +19,6 @@ body {
     margin: 0px;
     background-color: #f9f9f9;
     align-items: center;
-
 }
 
 .card {
@@ -75,10 +76,10 @@ li {
 
 
 ul>li:nth-child(1) {
-    padding-right: 60px;
+    padding-right: 30px;
     width: 130px;
     height: 21px;
-    border-right: 1px solid red;
+    border-right: 1.20466px solid #E0E0E0;
 
     font-family: DelaGothicOne;
     font-style: normal;
@@ -92,11 +93,9 @@ ul>li:nth-child(1) {
 
 ul>li:nth-child(2) {
 
-
     width: 0px;
     height: 16.87px;
-
-    border: 1.20466px solid #E0E0E0;
+    padding-left: 30px;
 
     flex: none;
     order: 1;
@@ -148,12 +147,10 @@ ul>li:nth-child(4) {
 
 ul>li:nth-child(5) {
     padding-right: 30px;
-    width: 70px;
+    width: 59px;
     height: 22px;
 
-    /* Text/Body 2 */
-
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -162,10 +159,7 @@ ul>li:nth-child(5) {
 
     letter-spacing: -0.04em;
 
-    /* Primaty/Grey Dark */
-
     color: #757575;
-
 
 
     flex: none;
@@ -626,17 +620,19 @@ ul>li:nth-child(8) {
 }
 
 .simbols2 {
-    height: 324.05px;
-    width: 325.05px;
+
+    width: 324.05px;
+    height: 145px;
     margin-top: 30px;
     margin-bottom: 127.5px;
     display: flex;
+    gap: 21.05px;
 
 }
 
 .s-1 {
 
-    width: 145px;
+    width: 131px;
     height: 145px;
 
     float: left;
@@ -827,12 +823,8 @@ ul>li:nth-child(8) {
 
     letter-spacing: -0.04em;
 
-    /* Primaty/Grey Dark */
-
     color: #757575;
 
-
-    /* Inside auto layout */
 
     flex: none;
     order: 1;
@@ -901,12 +893,12 @@ table {
     width: 1180px;
     padding-top: 40px;
     height: 54px;
-
 }
 
 
 thead {
     text-decoration: none;
+
 }
 
 tr {
@@ -931,6 +923,7 @@ tr {
 
 a {
     text-decoration: none;
+    color: #757575;
 }
 
 tr>th:nth-child(1) {
@@ -938,6 +931,7 @@ tr>th:nth-child(1) {
     align-items: left;
     width: 44px;
     padding-right: 30px;
+
 }
 
 
