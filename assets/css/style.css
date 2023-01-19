@@ -17,7 +17,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background-color: #f9f9f9;
+    background: #FFFFFF;
     align-items: center;
 }
 
@@ -32,29 +32,30 @@ body {
 .header {
     height: 84px;
     background-color: #F6F5F4;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
     align-items: center;
     width: 1180px;
 
 }
 
-
 .header-text {
+    height: 84px;
+    background-color: #F6F5F4;
+
+    align-items: center;
     width: 1180px;
-    display: inline;
-    text-decoration: none;
+    border-bottom: 1.20466px solid #E0E0E0;
 }
 
 
-ul {
 
+ul {
+    display: inline;
 
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
-    gap: 207.2px;
+
 
     width: 1180px;
     height: 36px;
@@ -74,10 +75,10 @@ li {
 
 }
 
-
-
 ul>li:nth-child(1) {
     padding-right: 30px;
+
+    padding-bottom: 24px;
     width: 130px;
     height: 21px;
     border-right: 1.20466px solid #E0E0E0;
@@ -93,6 +94,7 @@ ul>li:nth-child(1) {
     flex: none;
     order: 0;
     flex-grow: 0;
+    text-align: left;
 
 }
 
@@ -126,7 +128,7 @@ ul>li:nth-child(3) {
     height: 22px;
 
 
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -146,10 +148,9 @@ ul>li:nth-child(3) {
 }
 
 ul>li:nth-child(4) {
-    width: 72px;
+    width: 70px;
     height: 22px;
     padding-right: 30px;
-
 
 
     font-family: Montserrat;
@@ -171,9 +172,9 @@ ul>li:nth-child(4) {
 }
 
 ul>li:nth-child(5) {
-    padding-right: 30px;
 
-    width: 55px;
+
+    width: 65.22px;
     height: 22px;
 
     font-family: Montserrat;
@@ -195,7 +196,7 @@ ul>li:nth-child(5) {
 
 ul>li:nth-child(6) {
 
-    padding-left: 440px;
+    padding-left: 438.31px;
     padding-right: 21px;
 
     width: 51px;
@@ -234,7 +235,20 @@ ul>li:nth-child(7) {
     letter-spacing: -0.04em;
 
     color: #FFFFFF;
+}
 
+.dropbtn {
+
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+
+    letter-spacing: -0.04em;
+
+    color: #757575;
 }
 
 
@@ -242,7 +256,7 @@ ul>li:nth-child(7) {
 
     color: #000000;
     overflow: hidden;
-    width: 54px;
+    width: 65px;
     display: inline-block;
 }
 
@@ -264,11 +278,45 @@ ul>li:nth-child(7) {
 }
 
 .dropdown-content a {
-    display: fkex;
-    color: black;
-    display: flex;
+
+    padding: 20px;
+
+}
 
 
+.sprint {
+    width: 65px;
+    height: 16px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #333333;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.audio-call {
+    width: 98px;
+    height: 16px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #828282;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 
@@ -290,6 +338,10 @@ ul>li:nth-child(7) {
 }
 
 /*-------------------------*/
+
+
+
+
 
 .group1 {
 
@@ -416,9 +468,9 @@ ul>li:nth-child(7) {
 
 
 .simbols {
-    width: 364.5px;
+    width: 351.56px;
     height: 40px;
-
+    gap: 101.51px;
 
 }
 
@@ -426,13 +478,13 @@ ul>li:nth-child(7) {
     width: 163px;
     height: 40px;
     float: left;
+    gap: 10px;
 
-    margin-right: 101.51px;
 
 }
 
 .vector2 {
-    width: 24px;
+    width: 18px;
     height: 30px;
     float: left;
 }
@@ -446,15 +498,17 @@ ul>li:nth-child(7) {
 
 
 .simbols-2 {
-    width: 99.05px;
+    width: 87.05px;
     height: 40px;
     float: right;
+
+    gap: 13.05px;
 
 }
 
 .vector {
-    width: 30px;
-    height: 24px;
+    width: 18px;
+    height: 38px;
     float: left;
 
 }
@@ -468,7 +522,7 @@ ul>li:nth-child(7) {
 .pop-mini {
     width: 347.05px;
     height: 22px;
-    margin-top: 3px;
+    margin-top: 0px;
     display: flex;
     margin-left: 26px;
 }
@@ -477,6 +531,7 @@ ul>li:nth-child(7) {
     width: 112px;
     height: 22px;
     margin-right: 110.05px;
+    gap: 123.05px;
 }
 
 .pop {
@@ -502,6 +557,7 @@ ul>li:nth-child(7) {
     width: 92px;
     height: 22px;
     float: right;
+
 }
 
 .mini {
@@ -975,7 +1031,7 @@ tr>th:nth-child(4) {
 
 tr>th:nth-child(5) {
     width: 73px;
-    padding-right: 569px;
+    padding-right: 500px;
     height: 14px;
 }
 
@@ -992,9 +1048,6 @@ tr>th:nth-child(7) {
 tr>th:nth-child(8) {
     width: 53px;
 }
-
-
-
 
 
 
@@ -1042,8 +1095,6 @@ tr>th:nth-child(8) {
     width: 249px;
     height: 12px;
 }
-
-
 
 
 
