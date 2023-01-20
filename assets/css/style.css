@@ -25,37 +25,35 @@ body {
     background-color: #F6F5F4;
     box-sizing: border-box;
     align-items: center;
-    width: 1180px;
-    margin-left: 170px;
+
 }
 
 .header {
     height: 84px;
     background-color: #F6F5F4;
-
     align-items: center;
-    width: 1180px;
+    border-bottom: 1.20466px solid #E0E0E0;
 
 }
 
 .header-text {
     height: 84px;
     background-color: #F6F5F4;
+    margin: 0 auto;
 
-    align-items: center;
     width: 1180px;
     border-bottom: 1.20466px solid #E0E0E0;
+
 }
 
 
 
 ul {
     display: inline;
-
+    margin: 0 auto;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 
     width: 1180px;
     height: 36px;
@@ -73,12 +71,13 @@ ul {
 li {
     display: inline;
 
+
 }
 
 ul>li:nth-child(1) {
     padding-right: 30px;
+    margin: 0 auto;
 
-    padding-bottom: 24px;
     width: 130px;
     height: 21px;
     border-right: 1.20466px solid #E0E0E0;
@@ -240,6 +239,8 @@ ul>li:nth-child(7) {
 .dropbtn {
 
 
+    display: inline-flex;
+
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -251,13 +252,13 @@ ul>li:nth-child(7) {
     color: #757575;
 }
 
-
 .dropdown {
 
     color: #000000;
     overflow: hidden;
     width: 65px;
-    display: inline-block;
+    display: inline-flex;
+
 }
 
 
@@ -348,6 +349,7 @@ ul>li:nth-child(7) {
     width: 1180px;
     height: 740px;
     margin-top: 0px;
+    margin: 0 auto;
 }
 
 .text1 {
@@ -604,12 +606,17 @@ ul>li:nth-child(7) {
 /* --------*/
 
 .group2 {
-    width: 1180px;
+
     height: 600px;
 
     background: #FFFFFF;
 
     align-items: center;
+}
+
+.group2-cont {
+    width: 1180px;
+    margin: 0 auto;
 }
 
 .img2 {
@@ -719,10 +726,16 @@ ul>li:nth-child(7) {
 }
 
 .group3 {
-    width: 1180px;
+
     height: 500px;
     display: flex;
     background: #F6F5F4;
+}
+
+.group3-cont {
+    width: 1180px;
+    margin: 0 auto;
+
 }
 
 .text3 {
@@ -827,11 +840,16 @@ ul>li:nth-child(7) {
 /*----------*/
 
 .group4 {
-    width: 1180px;
+
     height: 600px;
 
     background: #FFFFFF;
     display: flex;
+}
+
+.group4-cont {
+    width: 1180px;
+    margin: 0 auto;
 }
 
 .img4 {
@@ -943,6 +961,7 @@ ul>li:nth-child(7) {
 .footer {
     width: 1180px;
     height: 160px;
+    margin: 0 auto;
 
     background: #F6F5F4;
 
@@ -1057,7 +1076,7 @@ tr>th:nth-child(8) {
     height: 86px;
     width: 1180px;
     margin-top: 0px;
-    border: 1.20466px solid #E0E0E0;
+    border-top: 1.20466px solid #E0E0E0;
 }
 
 .table-1 {
