@@ -29,7 +29,9 @@ body {
 }
 
 .header {
+
     height: 84px;
+    margin: 0 auto;
     background-color: #F6F5F4;
     align-items: center;
     border-bottom: 1.20466px solid #E0E0E0;
@@ -49,6 +51,7 @@ body {
 
 
 ul {
+
     display: inline;
     margin: 0 auto;
     flex-direction: row;
@@ -348,7 +351,7 @@ ul>li:nth-child(7) {
 
     width: 1180px;
     height: 740px;
-    margin-top: 0px;
+
     margin: 0 auto;
 }
 
@@ -730,6 +733,7 @@ ul>li:nth-child(7) {
     height: 500px;
     display: flex;
     background: #F6F5F4;
+
 }
 
 .group3-cont {
