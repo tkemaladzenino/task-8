@@ -54,11 +54,12 @@ body {
 ul {
 
     display: inline;
-    margin: 0 auto;
+
     flex-direction: row;
     justify-content: space-between;
 
 
+    padding: 0;
 
     width: 1180px;
     height: 36px;
@@ -69,6 +70,7 @@ ul {
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+    padding: 0;
 }
 
 li {
@@ -177,7 +179,7 @@ ul>li:nth-child(4) {
 ul>li:nth-child(5) {
 
 
-    width: 65.22px;
+    width: 66px;
     height: 22px;
 
     font-family: Montserrat;
@@ -245,6 +247,13 @@ ul>li:nth-child(7) {
 
     display: inline-flex;
 
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+
+
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -260,7 +269,7 @@ ul>li:nth-child(7) {
 
     color: #000000;
     overflow: hidden;
-    width: 66px;
+    width: 72px;
     display: inline-flex;
 
 }
@@ -280,6 +289,9 @@ ul>li:nth-child(7) {
     flex: none;
     order: 0;
     flex-grow: 0;
+
+    margin-top: 25px;
+    padding: 20px 10px;
 }
 
 .dropdown-content a {
